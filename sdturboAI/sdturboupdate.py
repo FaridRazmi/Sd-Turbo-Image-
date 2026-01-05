@@ -8,7 +8,7 @@ from PIL import Image
 # cara run : streamlit run sdturboupdate.py
 
 # 1. Setting Folder Simpanan
-folder_name = "gambarai"
+folder_name = "folder_name"
 if not os.path.exists(folder_name):
     os.makedirs(folder_name)
 
@@ -169,4 +169,5 @@ with main_col:
                     st.error(f"Generation error: {e}")
 
 st.markdown("---")
+
 st.markdown('<div class="small muted">Developed by REID | Powered by SD-Turbo ⚡</div>', unsafe_allow_html=True)
